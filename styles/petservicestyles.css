@@ -1,0 +1,278 @@
+header, main, footer {
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #414140;
+    color: #fff;
+}
+
+.page {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#pet-services {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #ff9f00;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ff9f00;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#table-of-contents {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+button,
+a.button {
+    padding: 10px 20px;
+    background-color: #ff9f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+a.button:hover {
+    background-color: #ffbf69;
+}
+
+.collapsible {
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    background-color: #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.collapsible.active {
+    background-color: #aaa;
+}
+
+.panel {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+}
+
+.accordion-item {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.panel {
+    padding: 0;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+}
+
+.panel p {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease;
+    border-radius: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: #ff9f00;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #111;
+}
+
+.menu-toggle {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.empty-space {
+    height: 10px;
+}
+
+.map-empty-space-bottom {
+    height: 170px;
+}
+
+.map-empty-space-top {
+    height: 10px;
+}
+
+.image-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.collapsible:active {
+    background-color: #555;
+}

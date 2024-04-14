@@ -1,0 +1,16 @@
+#map {
+      height: 200px;
+      width: 50%;
+    }
+    .search-container {
+      margin-top: 20px;
+      display: flex;
+      justify-content: left;
+    }
+    #search-input {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 300px;
+    }
